@@ -1,0 +1,21 @@
+#
+name: Github action hello 
+    
+on: pull_request
+    
+jobs: 
+  my_first_job:
+    name: 这是我的第一个job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a greeting
+        env: 
+          sayHI: hello bevis he,my is a github action!
+        run: |
+          echo $sayHI
+  my_secode_job: 
+    name: 这是我的第二个job
+
+
+
+  
