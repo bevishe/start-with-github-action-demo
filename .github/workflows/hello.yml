@@ -11,10 +11,8 @@ jobs:
       - name: Print a greeting
         env: 
           sayHI: hello bevis he,my is a github action!
-        run: |
+        run: 
           echo $sayHI
-  my_secode_job: 
-    name: 这是我的第二个job
 
 
 
